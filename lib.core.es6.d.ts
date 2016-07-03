@@ -20,6 +20,7 @@ and limitations under the License.
 
 declare const NaN: number;
 declare const Infinity: number;
+declare var console: Console;
 
 /**
   * Evaluates JavaScript code and executes it. 
