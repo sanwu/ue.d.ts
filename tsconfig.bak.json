@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "outFile": "./build/all.js",
+        "sourceMap": true,
+        "target": "ES6",
+        "allowJs": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitUseStrict": true,
+        "jsx": "react",
+        "moduleResolution": "node"
+    },
+    "buildOnSave": false,
+    "compileOnSave": true,
+    "filesGlob": [
+        "./typings/**/*.ts",
+        "./src/**/*.ts"
+    ],
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}
